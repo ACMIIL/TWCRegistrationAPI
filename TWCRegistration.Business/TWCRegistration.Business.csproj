@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TWCRegistration.Core\TWCRegistration.Core.csproj" />
+    <ProjectReference Include="..\TWCRegistration.Service\TWCRegistration.Service.csproj" />
+  </ItemGroup>
+
 </Project>

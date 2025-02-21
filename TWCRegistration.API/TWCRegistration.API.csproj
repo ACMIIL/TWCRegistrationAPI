@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\TWCRegistration.Business\TWCRegistration.Business.csproj" />
+    <ProjectReference Include="..\TWCRegistration.Core\TWCRegistration.Core.csproj" />
+    <ProjectReference Include="..\TWCRegistration.Data\TWCRegistration.Data.csproj" />
+    <ProjectReference Include="..\TWCRegistration.Service\TWCRegistration.Service.csproj" />
   </ItemGroup>
 
 </Project>
