@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TWCRegistration.Core.Helper
 {
-    internal class Helper
+    public class Helper :IHelper
     {
     }
 }
